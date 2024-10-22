@@ -365,6 +365,12 @@
             </properties>
         </profile>
         <profile>
+            <id>use-yugabytedb</id>
+            <properties>
+                <cql-module>janusgraph-yugabytedb</cql-module>
+            </properties>
+        </profile>
+        <profile>
             <id>skip-docker</id>
             <properties>
                 <docker.build.skip>true</docker.build.skip>
